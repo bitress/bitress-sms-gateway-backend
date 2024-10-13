@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $error = 'Device token and message are required fields.';
     } else {
         // Initialize FirebaseMessagingService with the service account path
-        $serviceAccountPath = __DIR__ . '/bitress-firebase-adminsdk-sq2ip-2c4198637c.json';
+        $serviceAccountPath = __DIR__ . '/bitress-firebase-adminsdk-sq2ip-eddb546362.json';
         $firebaseMessagingService = new FirebaseMessagingService($serviceAccountPath);
 
         // Prepare message data
